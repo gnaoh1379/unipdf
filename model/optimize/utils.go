@@ -8,7 +8,7 @@ package optimize
 import (
 	"bytes"
 
-	"github.com/gnaoh1379/unipdf/v3/core"
+	"github.com/gnaoh1379/unipdf/core"
 )
 
 type objectStructure struct {

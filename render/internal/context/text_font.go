@@ -11,10 +11,10 @@ import (
 	"github.com/golang/freetype/truetype"
 	"golang.org/x/image/font"
 
-	"github.com/gnaoh1379/unipdf/v3/core"
-	"github.com/gnaoh1379/unipdf/v3/model"
+	"github.com/gnaoh1379/unipdf/core"
+	"github.com/gnaoh1379/unipdf/model"
 
-	"github.com/gnaoh1379/unipdf/v3/internal/textencoding"
+	"github.com/gnaoh1379/unipdf/internal/textencoding"
 )
 
 // TextFont represents a font used to draw text to a target, through a

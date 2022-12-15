@@ -8,7 +8,7 @@ package fonts
 import (
 	"fmt"
 
-	"github.com/gnaoh1379/unipdf/v3/internal/textencoding"
+	"github.com/gnaoh1379/unipdf/internal/textencoding"
 )
 
 // Font represents a font which is a series of glyphs. Character codes from PDF strings can be

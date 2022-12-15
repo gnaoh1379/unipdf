@@ -4,7 +4,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/gnaoh1379/unipdf/v3/internal/textencoding"
+	"github.com/gnaoh1379/unipdf/internal/textencoding"
 )
 
 const fontDir = `../../../creator/testdata`

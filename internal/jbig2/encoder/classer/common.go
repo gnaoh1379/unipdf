@@ -9,9 +9,9 @@ import (
 	"image"
 	"math"
 
-	"github.com/gnaoh1379/unipdf/v3/common"
-	"github.com/gnaoh1379/unipdf/v3/internal/jbig2/bitmap"
-	"github.com/gnaoh1379/unipdf/v3/internal/jbig2/errors"
+	"github.com/gnaoh1379/unipdf/common"
+	"github.com/gnaoh1379/unipdf/internal/jbig2/bitmap"
+	"github.com/gnaoh1379/unipdf/internal/jbig2/errors"
 )
 
 // JbAddedPixels is the size of the border added around pix of each c.c. for further processing.

@@ -18,8 +18,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/gnaoh1379/unipdf/v3/common"
-	"github.com/gnaoh1379/unipdf/v3/core"
+	"github.com/gnaoh1379/unipdf/common"
+	"github.com/gnaoh1379/unipdf/core"
 )
 
 // PdfPage represents a page in a PDF document. (7.7.3.3 - Table 30).

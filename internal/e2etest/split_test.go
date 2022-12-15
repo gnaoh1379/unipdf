@@ -11,8 +11,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/gnaoh1379/unipdf/v3/common"
-	"github.com/gnaoh1379/unipdf/v3/model"
+	"github.com/gnaoh1379/unipdf/common"
+	"github.com/gnaoh1379/unipdf/model"
 	"github.com/stretchr/testify/require"
 )
 

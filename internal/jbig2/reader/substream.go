@@ -10,7 +10,7 @@ import (
 	"errors"
 	"io"
 
-	"github.com/gnaoh1379/unipdf/v3/common"
+	"github.com/gnaoh1379/unipdf/common"
 )
 
 // SubstreamReader is the wrapper over the Reader's parts that is allowed only to

@@ -6,7 +6,7 @@
 package model
 
 import (
-	"github.com/gnaoh1379/unipdf/v3/core"
+	"github.com/gnaoh1379/unipdf/core"
 	"github.com/stretchr/testify/require"
 	"strings"
 	"testing"

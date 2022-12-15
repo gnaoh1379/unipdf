@@ -6,9 +6,9 @@
 package classer
 
 import (
-	"github.com/gnaoh1379/unipdf/v3/common"
+	"github.com/gnaoh1379/unipdf/common"
 
-	"github.com/gnaoh1379/unipdf/v3/internal/jbig2/bitmap"
+	"github.com/gnaoh1379/unipdf/internal/jbig2/bitmap"
 )
 
 // similarTemplatesFinder stores the state of a state machine which fetches similar sized templates.

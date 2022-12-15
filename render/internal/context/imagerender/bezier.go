@@ -8,7 +8,7 @@ package imagerender
 import (
 	"math"
 
-	"github.com/gnaoh1379/unipdf/v3/internal/transform"
+	"github.com/gnaoh1379/unipdf/internal/transform"
 )
 
 func quadratic(x0, y0, x1, y1, x2, y2, t float64) (x, y float64) {

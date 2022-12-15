@@ -10,7 +10,7 @@ import (
 	"errors"
 	"io"
 
-	"github.com/gnaoh1379/unipdf/v3/common"
+	"github.com/gnaoh1379/unipdf/common"
 )
 
 // readAtLeast reads at least n bytes into slice p.

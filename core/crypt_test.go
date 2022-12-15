@@ -10,8 +10,8 @@ package core
 import (
 	"testing"
 
-	"github.com/gnaoh1379/unipdf/v3/common"
-	"github.com/gnaoh1379/unipdf/v3/core/security"
+	"github.com/gnaoh1379/unipdf/common"
+	"github.com/gnaoh1379/unipdf/core/security"
 )
 
 func init() {

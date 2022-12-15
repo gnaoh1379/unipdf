@@ -8,7 +8,7 @@ package bitmap
 import (
 	"image"
 
-	"github.com/gnaoh1379/unipdf/v3/common"
+	"github.com/gnaoh1379/unipdf/common"
 )
 
 // CombineBytes combines the provided bytes with respect to the CombinationOperator.

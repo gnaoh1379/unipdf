@@ -45,7 +45,7 @@ Contact us if you need any specific examples.
 ## Installation
 With modules:
 ~~~
-go get github.com/gnaoh1379/unipdf/v3
+go get github.com/gnaoh1379/unipdf
 ~~~
 
 With GOPATH:

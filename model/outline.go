@@ -9,8 +9,8 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/gnaoh1379/unipdf/v3/common"
-	"github.com/gnaoh1379/unipdf/v3/core"
+	"github.com/gnaoh1379/unipdf/common"
+	"github.com/gnaoh1379/unipdf/core"
 )
 
 // OutlineDest represents the destination of an outline item.

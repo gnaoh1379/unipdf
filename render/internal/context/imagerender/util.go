@@ -14,7 +14,7 @@ import (
 
 	"golang.org/x/image/math/fixed"
 
-	"github.com/gnaoh1379/unipdf/v3/internal/transform"
+	"github.com/gnaoh1379/unipdf/internal/transform"
 )
 
 func degreesToRadians(degrees float64) float64 {

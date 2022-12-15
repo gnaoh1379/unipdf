@@ -20,12 +20,12 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/gnaoh1379/unipdf/v3/common"
-	"github.com/gnaoh1379/unipdf/v3/contentstream"
-	"github.com/gnaoh1379/unipdf/v3/core"
-	"github.com/gnaoh1379/unipdf/v3/model"
+	"github.com/gnaoh1379/unipdf/common"
+	"github.com/gnaoh1379/unipdf/contentstream"
+	"github.com/gnaoh1379/unipdf/core"
+	"github.com/gnaoh1379/unipdf/model"
 
-	"github.com/gnaoh1379/unipdf/v3/internal/jbig2/document"
+	"github.com/gnaoh1379/unipdf/internal/jbig2/document"
 )
 
 // register basic image drivers - gif, jpeg, png

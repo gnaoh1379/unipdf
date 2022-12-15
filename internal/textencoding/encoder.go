@@ -8,8 +8,8 @@ package textencoding
 import (
 	"encoding/binary"
 
-	"github.com/gnaoh1379/unipdf/v3/common"
-	"github.com/gnaoh1379/unipdf/v3/core"
+	"github.com/gnaoh1379/unipdf/common"
+	"github.com/gnaoh1379/unipdf/core"
 )
 
 // CharCode is a character code used in the specific encoding.

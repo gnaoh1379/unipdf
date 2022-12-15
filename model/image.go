@@ -16,11 +16,11 @@ import (
 	_ "image/png"
 	"io"
 
-	"github.com/gnaoh1379/unipdf/v3/common"
-	"github.com/gnaoh1379/unipdf/v3/core"
-	"github.com/gnaoh1379/unipdf/v3/internal/imageutil"
-	"github.com/gnaoh1379/unipdf/v3/internal/jbig2/bitmap"
-	"github.com/gnaoh1379/unipdf/v3/internal/sampling"
+	"github.com/gnaoh1379/unipdf/common"
+	"github.com/gnaoh1379/unipdf/core"
+	"github.com/gnaoh1379/unipdf/internal/imageutil"
+	"github.com/gnaoh1379/unipdf/internal/jbig2/bitmap"
+	"github.com/gnaoh1379/unipdf/internal/sampling"
 )
 
 // Image interface is a basic representation of an image used in PDF.

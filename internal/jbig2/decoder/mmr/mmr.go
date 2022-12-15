@@ -8,8 +8,8 @@ package mmr
 import (
 	"errors"
 
-	"github.com/gnaoh1379/unipdf/v3/internal/jbig2/bitmap"
-	"github.com/gnaoh1379/unipdf/v3/internal/jbig2/reader"
+	"github.com/gnaoh1379/unipdf/internal/jbig2/bitmap"
+	"github.com/gnaoh1379/unipdf/internal/jbig2/reader"
 )
 
 // Decoder is the jbig2 mmr data decoder.

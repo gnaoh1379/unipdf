@@ -8,8 +8,8 @@ package model
 import (
 	"errors"
 
-	"github.com/gnaoh1379/unipdf/v3/common"
-	"github.com/gnaoh1379/unipdf/v3/core"
+	"github.com/gnaoh1379/unipdf/common"
+	"github.com/gnaoh1379/unipdf/core"
 )
 
 // PdfShading represents a shading dictionary. There are 7 types of shading,

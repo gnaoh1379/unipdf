@@ -6,8 +6,8 @@
 package textencoding
 
 import (
-	"github.com/gnaoh1379/unipdf/v3/core"
-	"github.com/gnaoh1379/unipdf/v3/internal/strutils"
+	"github.com/gnaoh1379/unipdf/core"
+	"github.com/gnaoh1379/unipdf/internal/strutils"
 )
 
 // UTF16Encoder represents UTF-16 encoding.

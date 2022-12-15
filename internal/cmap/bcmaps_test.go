@@ -8,7 +8,7 @@ package cmap
 import (
 	"testing"
 
-	"github.com/gnaoh1379/unipdf/v3/internal/cmap/bcmaps"
+	"github.com/gnaoh1379/unipdf/internal/cmap/bcmaps"
 	"github.com/stretchr/testify/require"
 )
 

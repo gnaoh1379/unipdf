@@ -10,9 +10,9 @@ import (
 	"image/color"
 	"math"
 
-	"github.com/gnaoh1379/unipdf/v3/common"
-	"github.com/gnaoh1379/unipdf/v3/internal/transform"
-	"github.com/gnaoh1379/unipdf/v3/model"
+	"github.com/gnaoh1379/unipdf/common"
+	"github.com/gnaoh1379/unipdf/internal/transform"
+	"github.com/gnaoh1379/unipdf/model"
 )
 
 // textMark represents text drawn on a page and its position in device coordinates.

@@ -8,7 +8,7 @@ package creator
 import (
 	"strings"
 
-	"github.com/gnaoh1379/unipdf/v3/model"
+	"github.com/gnaoh1379/unipdf/model"
 )
 
 // TOCLine represents a line in a table of contents.

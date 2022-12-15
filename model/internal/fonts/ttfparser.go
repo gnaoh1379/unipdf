@@ -38,10 +38,10 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/gnaoh1379/unipdf/v3/common"
-	"github.com/gnaoh1379/unipdf/v3/core"
-	"github.com/gnaoh1379/unipdf/v3/internal/cmap"
-	"github.com/gnaoh1379/unipdf/v3/internal/textencoding"
+	"github.com/gnaoh1379/unipdf/common"
+	"github.com/gnaoh1379/unipdf/core"
+	"github.com/gnaoh1379/unipdf/internal/cmap"
+	"github.com/gnaoh1379/unipdf/internal/textencoding"
 )
 
 // MakeEncoder returns an encoder built from the tables in `rec`.

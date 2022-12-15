@@ -9,8 +9,8 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/gnaoh1379/unipdf/v3/common"
-	"github.com/gnaoh1379/unipdf/v3/model"
+	"github.com/gnaoh1379/unipdf/common"
+	"github.com/gnaoh1379/unipdf/model"
 )
 
 // textTable is a table of `w` x `h` textPara cells.

@@ -10,11 +10,11 @@ import (
 	"image/color"
 	"math"
 
-	"github.com/gnaoh1379/unipdf/v3/common"
+	"github.com/gnaoh1379/unipdf/common"
 
-	"github.com/gnaoh1379/unipdf/v3/internal/jbig2/errors"
-	"github.com/gnaoh1379/unipdf/v3/internal/jbig2/reader"
-	"github.com/gnaoh1379/unipdf/v3/internal/jbig2/writer"
+	"github.com/gnaoh1379/unipdf/internal/jbig2/errors"
+	"github.com/gnaoh1379/unipdf/internal/jbig2/reader"
+	"github.com/gnaoh1379/unipdf/internal/jbig2/writer"
 )
 
 // tab8 contains number of '1' bits in each possible 8 bit value stored at it's index.

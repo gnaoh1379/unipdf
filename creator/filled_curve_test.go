@@ -8,7 +8,7 @@ package creator
 import (
 	"testing"
 
-	"github.com/gnaoh1379/unipdf/v3/contentstream/draw"
+	"github.com/gnaoh1379/unipdf/contentstream/draw"
 )
 
 func CreateFillCurve(x0, y0, x1, y1, x2, y2, x3, y3 float64) draw.CubicBezierCurve {

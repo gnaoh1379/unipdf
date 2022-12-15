@@ -10,7 +10,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/gnaoh1379/unipdf/v3/common"
+	"github.com/gnaoh1379/unipdf/common"
 )
 
 // parse parses the CMap file and loads into the CMap structure.

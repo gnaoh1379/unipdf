@@ -13,11 +13,11 @@ import (
 	"os"
 	"strings"
 
-	"github.com/gnaoh1379/unipdf/v3/common"
-	"github.com/gnaoh1379/unipdf/v3/core"
+	"github.com/gnaoh1379/unipdf/common"
+	"github.com/gnaoh1379/unipdf/core"
 
-	"github.com/gnaoh1379/unipdf/v3/internal/textencoding"
-	"github.com/gnaoh1379/unipdf/v3/model/internal/fonts"
+	"github.com/gnaoh1379/unipdf/internal/textencoding"
+	"github.com/gnaoh1379/unipdf/model/internal/fonts"
 )
 
 // pdfFontSimple implements pdfFont

@@ -12,8 +12,8 @@ import (
 	"math"
 	"sort"
 
-	"github.com/gnaoh1379/unipdf/v3/common"
-	"github.com/gnaoh1379/unipdf/v3/model"
+	"github.com/gnaoh1379/unipdf/common"
+	"github.com/gnaoh1379/unipdf/model"
 )
 
 // paraList is a sequence of textPara. We use it so often that it is convenient to have its own

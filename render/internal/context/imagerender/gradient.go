@@ -10,7 +10,7 @@ import (
 	"math"
 	"sort"
 
-	"github.com/gnaoh1379/unipdf/v3/render/internal/context"
+	"github.com/gnaoh1379/unipdf/render/internal/context"
 )
 
 type stop struct {

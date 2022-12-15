@@ -1,4 +1,4 @@
-module github.com/gnaoh1379/unipdf/v3
+module github.com/gnaoh1379/unipdf
 
 go 1.11
 

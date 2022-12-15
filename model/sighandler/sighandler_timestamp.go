@@ -18,8 +18,8 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/gnaoh1379/unipdf/v3/core"
-	"github.com/gnaoh1379/unipdf/v3/model"
+	"github.com/gnaoh1379/unipdf/core"
+	"github.com/gnaoh1379/unipdf/model"
 	"github.com/unidoc/pkcs7"
 	"github.com/unidoc/timestamp"
 )

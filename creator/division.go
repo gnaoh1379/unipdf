@@ -8,7 +8,7 @@ package creator
 import (
 	"errors"
 
-	"github.com/gnaoh1379/unipdf/v3/common"
+	"github.com/gnaoh1379/unipdf/common"
 )
 
 // Division is a container component which can wrap across multiple pages (unlike Block).

@@ -6,10 +6,10 @@
 package jbig2
 
 import (
-	"github.com/gnaoh1379/unipdf/v3/internal/jbig2/decoder"
-	"github.com/gnaoh1379/unipdf/v3/internal/jbig2/document"
-	"github.com/gnaoh1379/unipdf/v3/internal/jbig2/errors"
-	"github.com/gnaoh1379/unipdf/v3/internal/jbig2/reader"
+	"github.com/gnaoh1379/unipdf/internal/jbig2/decoder"
+	"github.com/gnaoh1379/unipdf/internal/jbig2/document"
+	"github.com/gnaoh1379/unipdf/internal/jbig2/errors"
+	"github.com/gnaoh1379/unipdf/internal/jbig2/reader"
 )
 
 // DecodeBytes decodes jbig2 'encode' byte slice data, with provided 'parameters' and optional 'globals'.

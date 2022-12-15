@@ -12,9 +12,9 @@ import (
 	"os"
 	"strconv"
 
-	"github.com/gnaoh1379/unipdf/v3/common"
-	"github.com/gnaoh1379/unipdf/v3/core"
-	"github.com/gnaoh1379/unipdf/v3/model"
+	"github.com/gnaoh1379/unipdf/common"
+	"github.com/gnaoh1379/unipdf/core"
+	"github.com/gnaoh1379/unipdf/model"
 )
 
 // Creator is a wrapper around functionality for creating PDF reports and/or adding new

@@ -6,8 +6,8 @@
 package document
 
 import (
-	"github.com/gnaoh1379/unipdf/v3/internal/jbig2/document/segments"
-	"github.com/gnaoh1379/unipdf/v3/internal/jbig2/errors"
+	"github.com/gnaoh1379/unipdf/internal/jbig2/document/segments"
+	"github.com/gnaoh1379/unipdf/internal/jbig2/errors"
 )
 
 // Globals store segments that aren't associated to a page.

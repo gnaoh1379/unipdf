@@ -17,5 +17,5 @@ if [[ `git ls-remote origin "$build_branch"` ]]; then
 fi
 
 git checkout $target_branch
-echo "replace github.com/gnaoh1379/unipdf/v3 => $TRAVIS_BUILD_DIR" >> go.mod
+echo "replace github.com/gnaoh1379/unipdf => $TRAVIS_BUILD_DIR" >> go.mod
 ./build_examples.sh

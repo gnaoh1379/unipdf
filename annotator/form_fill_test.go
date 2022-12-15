@@ -14,12 +14,12 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/gnaoh1379/unipdf/v3/common"
-	"github.com/gnaoh1379/unipdf/v3/fdf"
-	"github.com/gnaoh1379/unipdf/v3/fjson"
-	"github.com/gnaoh1379/unipdf/v3/model"
+	"github.com/gnaoh1379/unipdf/common"
+	"github.com/gnaoh1379/unipdf/fdf"
+	"github.com/gnaoh1379/unipdf/fjson"
+	"github.com/gnaoh1379/unipdf/model"
 
-	"github.com/gnaoh1379/unipdf/v3/internal/testutils"
+	"github.com/gnaoh1379/unipdf/internal/testutils"
 )
 
 func init() {

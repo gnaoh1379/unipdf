@@ -28,33 +28,33 @@ cd bin
 # Create go.mod
 cat <<EOF > go.mod
 module cross_build
-require github.com/gnaoh1379/unipdf/v3 v3.0.0
+require github.com/gnaoh1379/unipdf v3.0.0
 EOF
 
-echo "replace github.com/gnaoh1379/unipdf/v3 => $TRAVIS_BUILD_DIR" >> go.mod
+echo "replace github.com/gnaoh1379/unipdf => $TRAVIS_BUILD_DIR" >> go.mod
 
 # Create Go file.
 cat <<EOF > main.go
 package main
 
 import (
-	_ "github.com/gnaoh1379/unipdf/v3/annotator"
-	_ "github.com/gnaoh1379/unipdf/v3/common"
-	_ "github.com/gnaoh1379/unipdf/v3/common/license"
-	_ "github.com/gnaoh1379/unipdf/v3/contentstream"
-	_ "github.com/gnaoh1379/unipdf/v3/contentstream/draw"
-	_ "github.com/gnaoh1379/unipdf/v3/core"
-	_ "github.com/gnaoh1379/unipdf/v3/core/security"
-	_ "github.com/gnaoh1379/unipdf/v3/core/security/crypt"
-	_ "github.com/gnaoh1379/unipdf/v3/creator"
-	_ "github.com/gnaoh1379/unipdf/v3/extractor"
-	_ "github.com/gnaoh1379/unipdf/v3/fdf"
-	_ "github.com/gnaoh1379/unipdf/v3/fjson"
-	_ "github.com/gnaoh1379/unipdf/v3/model"
-	_ "github.com/gnaoh1379/unipdf/v3/model/optimize"
-	_ "github.com/gnaoh1379/unipdf/v3/model/sighandler"
-	_ "github.com/gnaoh1379/unipdf/v3/ps"
-	_ "github.com/gnaoh1379/unipdf/v3/render"
+	_ "github.com/gnaoh1379/unipdf/annotator"
+	_ "github.com/gnaoh1379/unipdf/common"
+	_ "github.com/gnaoh1379/unipdf/common/license"
+	_ "github.com/gnaoh1379/unipdf/contentstream"
+	_ "github.com/gnaoh1379/unipdf/contentstream/draw"
+	_ "github.com/gnaoh1379/unipdf/core"
+	_ "github.com/gnaoh1379/unipdf/core/security"
+	_ "github.com/gnaoh1379/unipdf/core/security/crypt"
+	_ "github.com/gnaoh1379/unipdf/creator"
+	_ "github.com/gnaoh1379/unipdf/extractor"
+	_ "github.com/gnaoh1379/unipdf/fdf"
+	_ "github.com/gnaoh1379/unipdf/fjson"
+	_ "github.com/gnaoh1379/unipdf/model"
+	_ "github.com/gnaoh1379/unipdf/model/optimize"
+	_ "github.com/gnaoh1379/unipdf/model/sighandler"
+	_ "github.com/gnaoh1379/unipdf/ps"
+	_ "github.com/gnaoh1379/unipdf/render"
 )
 
 func main() {}

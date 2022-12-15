@@ -8,7 +8,7 @@ package extractor
 import (
 	"math"
 
-	"github.com/gnaoh1379/unipdf/v3/model"
+	"github.com/gnaoh1379/unipdf/model"
 )
 
 /*

@@ -4,8 +4,8 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/gnaoh1379/unipdf/v3/core"
-	"github.com/gnaoh1379/unipdf/v3/model/internal/fonts"
+	"github.com/gnaoh1379/unipdf/core"
+	"github.com/gnaoh1379/unipdf/model/internal/fonts"
 )
 
 func TestCIDWidthArr(t *testing.T) {

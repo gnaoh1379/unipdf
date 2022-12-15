@@ -6,9 +6,9 @@
 package segments
 
 import (
-	"github.com/gnaoh1379/unipdf/v3/internal/jbig2/bitmap"
-	"github.com/gnaoh1379/unipdf/v3/internal/jbig2/reader"
-	"github.com/gnaoh1379/unipdf/v3/internal/jbig2/writer"
+	"github.com/gnaoh1379/unipdf/internal/jbig2/bitmap"
+	"github.com/gnaoh1379/unipdf/internal/jbig2/reader"
+	"github.com/gnaoh1379/unipdf/internal/jbig2/writer"
 )
 
 // Documenter is the interface used for the document model.

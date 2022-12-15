@@ -8,7 +8,7 @@ package extractor
 import (
 	"fmt"
 
-	"github.com/gnaoh1379/unipdf/v3/model"
+	"github.com/gnaoh1379/unipdf/model"
 )
 
 // Extractor stores and offers functionality for extracting content from PDF pages.

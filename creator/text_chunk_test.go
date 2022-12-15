@@ -8,7 +8,7 @@ package creator
 import (
 	"testing"
 
-	"github.com/gnaoh1379/unipdf/v3/model"
+	"github.com/gnaoh1379/unipdf/model"
 	"github.com/stretchr/testify/require"
 )
 

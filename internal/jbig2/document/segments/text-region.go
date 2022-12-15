@@ -11,16 +11,16 @@ import (
 	"math"
 	"strings"
 
-	"github.com/gnaoh1379/unipdf/v3/common"
+	"github.com/gnaoh1379/unipdf/common"
 
-	"github.com/gnaoh1379/unipdf/v3/internal/jbig2/basic"
-	"github.com/gnaoh1379/unipdf/v3/internal/jbig2/bitmap"
-	"github.com/gnaoh1379/unipdf/v3/internal/jbig2/decoder/arithmetic"
-	"github.com/gnaoh1379/unipdf/v3/internal/jbig2/decoder/huffman"
-	encoder "github.com/gnaoh1379/unipdf/v3/internal/jbig2/encoder/arithmetic"
-	"github.com/gnaoh1379/unipdf/v3/internal/jbig2/errors"
-	"github.com/gnaoh1379/unipdf/v3/internal/jbig2/reader"
-	"github.com/gnaoh1379/unipdf/v3/internal/jbig2/writer"
+	"github.com/gnaoh1379/unipdf/internal/jbig2/basic"
+	"github.com/gnaoh1379/unipdf/internal/jbig2/bitmap"
+	"github.com/gnaoh1379/unipdf/internal/jbig2/decoder/arithmetic"
+	"github.com/gnaoh1379/unipdf/internal/jbig2/decoder/huffman"
+	encoder "github.com/gnaoh1379/unipdf/internal/jbig2/encoder/arithmetic"
+	"github.com/gnaoh1379/unipdf/internal/jbig2/errors"
+	"github.com/gnaoh1379/unipdf/internal/jbig2/reader"
+	"github.com/gnaoh1379/unipdf/internal/jbig2/writer"
 )
 
 // TextRegion is the model for the jbig2 text region segment - see 7.4.1.

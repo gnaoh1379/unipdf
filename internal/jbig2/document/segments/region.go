@@ -11,12 +11,12 @@ import (
 	"math"
 	"strings"
 
-	"github.com/gnaoh1379/unipdf/v3/common"
+	"github.com/gnaoh1379/unipdf/common"
 
-	"github.com/gnaoh1379/unipdf/v3/internal/jbig2/bitmap"
-	"github.com/gnaoh1379/unipdf/v3/internal/jbig2/errors"
-	"github.com/gnaoh1379/unipdf/v3/internal/jbig2/reader"
-	"github.com/gnaoh1379/unipdf/v3/internal/jbig2/writer"
+	"github.com/gnaoh1379/unipdf/internal/jbig2/bitmap"
+	"github.com/gnaoh1379/unipdf/internal/jbig2/errors"
+	"github.com/gnaoh1379/unipdf/internal/jbig2/reader"
+	"github.com/gnaoh1379/unipdf/internal/jbig2/writer"
 )
 
 // RegionSegment is the model representing base jbig2 segment region - see 7.4.1.

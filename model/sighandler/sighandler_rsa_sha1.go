@@ -15,8 +15,8 @@ import (
 	"fmt"
 	"hash"
 
-	"github.com/gnaoh1379/unipdf/v3/core"
-	"github.com/gnaoh1379/unipdf/v3/model"
+	"github.com/gnaoh1379/unipdf/core"
+	"github.com/gnaoh1379/unipdf/model"
 )
 
 // SignFunc represents a custom signing function. The function should return

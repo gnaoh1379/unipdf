@@ -6,7 +6,7 @@
 package optimize
 
 import (
-	"github.com/gnaoh1379/unipdf/v3/core"
+	"github.com/gnaoh1379/unipdf/core"
 )
 
 // ObjectStreams groups PDF objects to object streams.
